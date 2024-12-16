@@ -5,64 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Initial Responsive Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
-<body>
-
-    <style>
-        @keyframes grow-and-shrink {
-            0% {
-                transform: scale(1);
-            }
-
-            100% {
-                transform: scale(1.5);
-            }
-        }
-
-        .box {
-            animation: grow-and-shrink 2000ms;
-            animation-timing-function: ease-in-out;
-            animation-iteration-count: infinite;
-            animation-direction: alternate;
-        }
-    </style>
-    </head>
-    <style>
-        body {
-            background-color: black;
-            color: white;
-            text-align: center;
-            padding: 15%;
-            font-size: xx-large
-        }
-
-        .toview {
-            width: 10em;
-            background-color: white;
-            height: 5em;
-        }
-
-        value {
-            font-size: xx-large;
-        }
-
-        .toview:hover {
-            background-color: blue;
-            color: white;
-        }
-    </style>
-
-    <body>
-        <form action="/page.html" method="" target="">
-            <h1>Hello!👋<br> Click to View <br>About My Page</h1>
-            <input class="box" type="submit" value="CLICK ME!" class="toview"
-                style="font-size: large; border-radius: 2em;">
-        </form>
-
-    </body>
-
+<body id="wlcp">
+    <!--Welcome page as link to main page-->
+    <form action="/page.html" method="" target="">
+        <h1>Hello!👋<br> Click to View <br> My Page</h1>
+        <input class="box" type="submit" value="CLICK ME!" id="button">
+    </form>
+</body>
 </html>
 </body>
-
 </html>

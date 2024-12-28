@@ -5,7 +5,7 @@
 ## About Page 
 Initial Responsive Page structured with Hypertext Markup Language and Cascading Style Sheet.     
 
-This page is structured on Virtual Studio Code Integrated Developement Environment.
+This page is structured on Virsual Studio Code Integrated Developement Environment.
 
 <hr>  
 

@@ -1,68 +1,70 @@
 [Home](/index.html)  
-[Galary](url) 
+[Galary](/galary.html) 
 # Hello!👋 
-## Welcome to my page
-![Picture of me]()
-### *_This page contains My Basic Bio-Data_*
-* School ID
-* Department
-* Instructor
-* Section  
-* Profile
-* Reason for join the program.  
-* Goal
-* Educational Background.
-* Hobby and Skills
-* Job Experience
-### PROFILE
-_My name is <strong>Emmanuel Imeh</strong>, Cloud Enginering Student at AltSchool._  
+## Welcome to my page 
+## About Page 
+Initial Responsive Page structured with Hyber Text Mark-up Language and Cascading Style Sheet.     
 
-I am a Nigerian, born on the <b>1<sup>st</sup> of June</b>. I hail from Akwa Ibom but reside in Lagos State.
+This page is structured on Virtual Studio Code Integrated Developement Environment.
 
-### Reason i joined the program.
-I joined this program because i am ambitious and passionate to gain more knowledge in modern development in 
-tech industry. 
-### GOAL FOR THIS COURSE
-At the end of this program as Cloud Engineering Applicant in <b> _AltSchool Africa_</b>, i aspire to became a competent cloud engineer and a DevOps Engr.
+<hr>  
 
-### Education/Cert.
-> <ul><li>Studies at Altschool</li>
-> <ul><li> (Diploma)<ul>
+## Galary Page  
+Page with utmost images, videos and audio
+### HTML Elements used
 
-><ul><li>Oto Awori Senior Grammer School</li>
-> <ul><li> (SSCE)<ul>  
+<details>
+<Summary>Photo Section</Summary>   
 
-><ul><li>CBL Computer College</li>
-> <ul><li> (Computer Application)<ul>  
+```html
+<blockquote cite=""https://www.google.com/search?q=carring+mum+quote&oq=carring+mum+quote&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABgKGBYYHjINCAIQABiGAxiABBiKBTINCAMQABiGAxiABBiKBTINCAQQABiGAxiABBiKBTINCAUQABiGAxiABBiKBTIKCAYQABiABBiiBDIHCA
+                    cQABjvBTIKCAgQABiiBBiJBdIBCTIxOTYwajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8"">
+                    
+<img src="relative-url" alt="A caring mother">
 
-><ul><li>Morogbo Primary School</li>
-> <ul><li> (FSLC)<ul>  
-### HOBBIES AND SKILL
-* Traveling
-* Sporting
-* Computer Proficiency in Microsoft.
-### Work Experiences
-<html>
+<source srcset="relative-url" madia=(max-width:300px)>
 
-<b> COMPANY | NAME | ROLE </b>
+<img src="relative-url" alt="shore">
 
-1| Cyber Cafe >
-Computer Operator
+```
+</details>  
 
+<details>
+<Summary>Video Section</Summary>  
 
-2| Beloxxi Industrial Company > Factory Worker
+### Element Tags
+```html
+<p>
 
-3| Law Firm Litigation > Clerk
+<img src="relative-url" alt="A caring mother">
 
+<source srcset="relative-url" madia=(max-width:300px)>
 
-4| Delight Opulence Credit >
-Client Support Officer
+<img src="relative-url" alt="shore">
 
-5| IBIC Holdings >
-Security Officer
-</tr>
+```
+</details>
+<details>
+<Summary>Audio Section</Summary>  
 
-6| Georg Residense >
-Valey
+### Element Tags
+```html
+<p>
 
-&copy; 2024 My Basic Information. |[davidimehemmanuel@gmail.com](davidimehemmanuel@gmail.com) | [LinkedIn](https://github.com/Emmanuel-Imeh) | [Medium](https://medium.com/@davidimehemmanuel)
+<audio src="relative-url" type="audio/mpeg" controls></audio>
+<a href="relative-url">for download<a>
+
+```
+</details>  
+  
+<br/>  
+<br/>  
+<br/>  
+
+&copy; 2024 My Basic Information.  
+[davidimehemmanuel@gmail.com](davidimehemmanuel@gmail.com)  
+> ![Linkedin](data:image/png;base64,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)  
+
+>[LinkedIn](https://github.com/Emmanuel-Imeh)   
+
+[Medium](https://medium.com/@davidimehemmanuel)

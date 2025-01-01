@@ -21,6 +21,15 @@ body{
     }
     
 }
+@media screen and (max-width: 1200px) {
+    #wlcph1{
+        font-size: 10pt;
+        margin-top: 290px;
+    }
+    
+}
+
+
 
 
 @keyframes grow-and-shrink {
@@ -439,6 +448,7 @@ p+h2{
     display: flex;
     column-gap: 5px;
     background-color: rgb(124, 124, 219);
+    overflow: auto;
     @media screen and (width < 970px) {
         display:flex;
         flex-direction: column;
@@ -455,6 +465,7 @@ p+h2{
     padding: 20px;
     border: 1px solid rgb(242, 238, 238);
     /* margin: 25px; */
+    overflow: auto;
     @media screen and (width < 970px) {
         width: 100%;
         
@@ -510,6 +521,7 @@ p+h2{
     padding: 20px;
     border: 1px solid rgb(228, 218, 218);
     /* margin: 25px; */
+    overflow: auto;
     @media screen and (width < 1300px) {
         width: 100%;
         #v1{
@@ -542,6 +554,7 @@ p+h2{
     padding: 20px;
     border: 1px solid rgb(224, 212, 212);
     /* margin: 25px; */
+    overflow: auto;
     @media screen and (width < 970px) {
         width: 100%;
         

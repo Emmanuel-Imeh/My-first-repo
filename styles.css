@@ -188,135 +188,7 @@ textarea{
     }
 }
 
-/* #intr{
-    margin:0;
-    display: flex;
-    background-color: rgb(46, 42, 42);
-    text-shadow: 5px -5px white;
-    font-size: 50px;
-    padding-top: 9rem;
-    @media screen and (width < 767px ) {
-        display: flex;
-        background-color: rgb(46, 42, 42);
-        text-shadow: 5px -5px white;
-        font-size: 20px;
-        height: 200px;
-        padding-top: 150px;
-        column-gap: px;
-        .pp{
-            height: 100px;
-            width: 100px;
-            margin-top: 60px;
-            margin-right:0px ;
-            margin-left: 7px;
-        }
-        introduction paragraph
-        .intrp{
-            padding-top: 80px;
-        }
-    }
-    @media screen and (max-width: 970) {
-        #intr{
-            width: 200px;
-            height: 200px;
-            
-        }
-    }
-    @media screen and (max-width:327px) {
-        #intr{
-            font-size: x-small;
-            width: 180px;
-            height: 200px;
-        }
-    
-    }
-    .pp{
-        border-radius: 400px;
-        margin-left: 10px;
-    }
-    #emb{
-        margin-left: 500px;
-        height: 70px;
-        width: 70px;
-        margin-top: 100px;
-        animation: grow-and-shrink 2000ms;
-        animation-timing-function:fadein 2s ease-in-out;
-        animation-iteration-count: infinite;
-        animation-direction:alternate;
-        
-        @media screen and (width < 1100px) {
-            margin-right: 10px;
-            margin-left: 0;
-            height: 20px;
-            width: 20px; 
-            
-        }
-    }
-    @media screen and (max-width: 970) {
-        #mother{
-            width: 200px;
-            height: 200px;
-            
-        }
-    }
-    @media screen and (max-width:327px) {
-        #mother{
-            width: 180px;
-            height: 200px;
-        }
-    
-    }
-    
-} */
-/* .gbcontainer{
-    margin: 0 auto;
-    width: 900px;
-    background-color:rgb(236, 228, 228);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    table{
-        margin-bottom: 10px;
-    }
-    @media(width < 884px) {
-        width: max-content;
-        background-color: white;
-        align-items:flex-start;
-        
-    }
-    
-} */
-/* article{
-    margin: 20px;
-    width: 500px;
-    text-align: justify;
-    @media(width < 800px) {
-        width:300px;
-        background-color: white;
-        margin: auto;
-        margin-left: 10px;;
-        text-align:justify ;
-    }
-}
-@media screen and (width < 400px) {
-    .flex-item{
-        
-        margin-left: 10px;
-    }
-    table{
-        font-size: small;
-        margin-right: 6px;
-        margin-bottom: 5px;
-        
-    }
-    .tu{
-        
-        background-color: white;
-    }
-    
-} */
-
-footer{
+Footer{
     background-color:rgb(34, 34, 66);
     color: white;
     align-content: space-around;
@@ -381,7 +253,7 @@ footer{
     position: fixed;
     width: 100%;
     z-index: 10;
-    @media screen and (width < 1100px) { 
+    @media screen and (width < 1200px) { 
             display:inline;
             gap:0;
             align-content: flex-start;
@@ -450,15 +322,16 @@ p+h2{
     background-color: rgb(124, 124, 219);
     overflow: auto;
     @media screen and (width < 970px) {
-        display:flex;
+        display:inline-block;
         flex-direction: column;
         background-color: rgb(124, 124, 219);
-        
+        width: 100%;
     }
+   
 
 }
 #photo{
-    width: 33%;
+    width: 40%;
     /* height: 1000px; */
     box-sizing: border-box;
     /* width: 300px;*/
@@ -489,66 +362,83 @@ p+h2{
     
 }
 #mother{
-    width:450px;
+    width:400px;
     height: 250px;
     
 }
 @media screen and (max-width: 1300px){
     #mother{
-        width: 290px;
+        width: 240px;
         height: 250;
     }
 }
-@media screen and (max-width: 970) {
+@media screen and (max-width: 970px){
     #mother{
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: max-content;
+       
         
     }
 }
-@media screen and (max-width:327px) {
+@media screen and (max-width:327px){
     #mother{
         width: 250px;
         height: 200px;
     }
-
+    
 }
 #video{
     height: 1000px;
-    width: 33%;
+    width: 45%;
     box-sizing: border-box;
     /* width: 300px;*/
     padding: 20px;
     border: 1px solid rgb(228, 218, 218);
     /* margin: 25px; */
     overflow: auto;
-    @media screen and (width < 1300px) {
-        width: 100%;
-        #v1{
+    
+}
+@media screen and (width < 1300px) {
+    /* width: 500px; */
 
-            width: 290px;
-        }
-        
+    #v1 {
+        width: 290px;
+    }
+}
+
+@media screen and (width < 970px) {
+    #video {
+        width: 100%;
+        height: max-content;
         
     }
-    @media screen and (width < 327px) {
-        #v1{
-            width: 250px;
-            height: 200px;
-        }
-        
+    #v1{
+        width: 70%;
+        height: 300px;
+     
     }
-    #mds{
-        text-align: center;
-        background-color: black;
-        color: white;
-        margin-top: 0;
+
+}
+
+@media screen and (width < 327px) {
+    #v1 {
+        width: 250px;
+        height: 200px;
     }
+
+}
+
+#mds {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 0;
+
 }
 #audio{
     line-height: 30px;
     /* height: 1000px; */
-    width: 33%;
+    width: 48%;
     box-sizing: border-box;
     /* width: 300px; */
     padding: 20px;
@@ -562,6 +452,7 @@ p+h2{
     @media screen and (width < 327px) {
         audio{
             width: 190px;
+            /* height: 100px; */
             height: 100px;
             display: inline-block;
             margin-top: -10%;

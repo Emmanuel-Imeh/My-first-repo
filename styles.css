@@ -79,11 +79,16 @@ body{
         width: 100px;
         height: 100px;
     }
+    .button-bg{
+        font-size: xx-small;
+        width: max-content;
+        height: fit-content;
+    }
     
 }
 .button-bg{
-    width: 120px;
-    height: 50px;
+    width: 100px;
+    height: 30px;
     border-radius: 50%;
     background-color: rgb(75, 197, 197);
     font-weight: bolder;
@@ -95,10 +100,15 @@ body{
     cursor: pointer;
 
 }
-.button-to-open{
-    src: local("./galary.html");
-}
 
+.innovation-logo{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: grey;
+  overflow-wrap: normal;
+  margin: 0 auto;
+}
 
 #wlcp {
     margin-top: 350px;
@@ -202,9 +212,9 @@ header{
    
 }
 .main-comment{
-    padding-top: 300px;
+    padding-top: 130px;
     width: 100%;
-    height: 500px;
+    height: 680px;
     justify-content: center;
 }
 #Contact-main{
@@ -222,7 +232,7 @@ textarea{
     .main-comment{
         padding-top: 100px;
         width: 100%;
-        height: 500px;
+        height: 600px;
         justify-content: center;
     }
     #Contact-main{

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="/index.js" defer></script>
 </head>
 <body>
     <div role="banner" >
@@ -33,11 +34,18 @@
             </div>
             <div>
                 <form action="" method="post">
-                    <textarea name="Comment" id="comment" placeholder="Enter your comment"></textarea>
-                    <button type="submit" >Post Comment</button>
+                    <textarea name="Comment" id="comment" placeholder="Enter your comment" value=" "></textarea>
+                    <input type="button" id="post" onclick="myFunction()" value="Post Comment">
                 </form>
+                <p id="comment-p"> </p>
+                
+                <!-- <form action="" method="">
+                    <textarea name="Comment" id="comment" placeholder="Enter your comment" value=" "></textarea>
+                    <button type="submit" id="post" onclick="myFunction()">Post Comment</button>
+                </form>
+                <p id="comment-p"></p> -->
             </div>
-        
+            
         </div>
     </main>
     

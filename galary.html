@@ -6,46 +6,43 @@
     <title>Multimedia Page</title>
     <link rel="stylesheet" href="/styles.css">
 </head>
-<body id="galarybg">
+<body class="galary_bg grid">
     <header>
-        <div role="banner" >
-            <!--Navigation-->
-            <div class="banner">
-                <div>
-                    <form action="https://google.com/search?" method="get" role="search" target="_blank">
-                        <div class="form-control" id="gfc">
-                            <p><h2>GALARY</h2></p>
-                            <input type="text" aria-label="search on galary" name="q" autocomplete="off" placeholder="Type to Search" id="search" class="input-medium search-query" dirname="dir" required value>
-                            <button type="submit" id="form">Search</button>
-                        </div>
-                    </form>
+        <div class="header_container">
+            <form action="https://google.com/search?" method="get" role="search" target="_blank">
+                <div class="form-control" id="Search">
+                    <h2 class="box">GALARY</h2>
+                    <input type="text" aria-label="search on galary" name="q" autocomplete="off" placeholder="Type to Search"
+                        id="search" class="input-medium search-query" dirname="dir" required value>
+                    <button type="submit" id="form">Search</button>
                 </div>
-                <div>
-                    <nav aria-label="navigation" class="menu" role="menubar">
-                        <ul id="ulmenu">
-                            <li><a href="/index.html" id="Back-to-home">HOME</a></li>
-                            <li><a href="/About.html" id="About-page">ABOUT</a></li>
-                        </ul>
-                    </nav>
-                </div>
+            </form>
+            <div class="nav_bar grid">
+                <nav aria-label="navigation" class="menu" role="menubar">
+                    <ul id="ulmenu">
+                        <li><a href="/index.html" id="Back-to-home" class="hover">HOME</a></li>
+                        <li><a href="/About.html" id="About-page" class="hover">ABOUT</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
     
-    <main id="gmain">
-        <h1 id="gbh1">Check out utmost images, videos and audio.</h1>
+    <main class="galary_main_content">
+        <div class="presentation colume">
+            <h1 id="gbh1">Check out utmost images, videos and audio.</h1>
+            <blockquote cite="https://www.brainyquote.com/quotes/zaha_hadid_540450?src=t_galleries">
+                <p>Of course I believe imaginative architecture can make a difference to people's lives, but I wish it was possible to divert some of the effort we put into ambitious museums and galleries into the basic architectural building blocks of society.
+                    <em>Zaha Hadid</em></p>
+            </blockquote>
+        </div>
 
-        <blockquote cite="https://www.brainyquote.com/quotes/zaha_hadid_540450?src=t_galleries">
-            <p>Of course I believe imaginative architecture can make a difference to people's lives, but I wish it was possible to divert some of the effort we put into ambitious museums and galleries into the basic architectural building blocks of society.
-                <em>Zaha Hadid</em></p>
-        </blockquote>
-
-        <section class="media" id="media">
+        <section class="media_section grid" id="media">
             <div id="photo" role="scrollbar" class="media">
-                <div id="mds">
-                    <h3>PHOTO SECTION</h3>
-                </div>
                 <div>
+                    <div id="mds">
+                        <h3>PHOTO SECTION</h3>
+                    </div>
                     <blockquote cite="https://www.google.com/search?q=carring+mum+quote&oq=carring+mum+quote&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABgKGBYYHjINCAIQABiGAxiABBiKBTINCAMQABiGAxiABBiKBTINCAQQABiGAxiABBiKBTINCAUQABiGAxiABBiKBTIKCAYQABiABBiiBDIHCA
                     cQABjvBTIKCAgQABiiBBiJBdIBCTIxOTYwajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8">
                         A mother's love is more beautiful than any fresh flower: <em>Debasish Mridha</em>
@@ -63,10 +60,10 @@
                 
             </div>
             <div id="video" role="scrollbar" class="">
-                <div id="mds">
-                    <h3>VIDEO SECTION</h3>
-                </div>
                 <div>
+                    <div id="mds">
+                        <h3>VIDEO SECTION</h3>
+                    </div>
                     <p>About AltSchool Africa</p>
                     <embed src="https://www.youtube.com/embed/7QA-86k0cEQ?si=5hI2pg7NV6RbdMFt" type="video/webm" id="v1">
                 </div>
@@ -97,8 +94,8 @@
         </section>
 
     </main>
-    <footer id="index-footer" class="gridft">
-        <div id="idf">
+    <footer id="index-footer">
+        <div id="footer-container">
             <!--Link to Github profile-->
             <p class="grid-item"><a href="https://github.com/Emmanuel-Imeh">
                 <!--embed logo of Github-->

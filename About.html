@@ -8,26 +8,33 @@
     <script src="/index.js" defer></script>
 </head>
 <body>
-    <div role="banner" >
-        <!--Navigation-->
-        <div class="banner">
-            <div>
+    <header>
+        <div class="header_container">
+            <form action="https://google.com/search?" method="get" role="search" target="_blank">
+                <div class="form-control" id="Search">
+                    <h2 class="box">GALARY</h2>
+                    <input type="text" aria-label="search on galary" name="q" autocomplete="off" placeholder="Type to Search"
+                        id="search" class="input-medium search-query" dirname="dir" required value>
+                    <button type="submit" id="form">Search</button>
+                </div>
+            </form>
+            <div class="nav_bar grid">
                 <nav aria-label="navigation" class="menu" role="menubar">
                     <ul id="ulmenu">
-                        <li id="ulmenu"><a href="/index.html" class="menu" id="Back-to-home">HOME</a></li>
-                        <li id="ulmenu"><a href="/galary.html" class="menu" id="Back-to-galary">GALARY</a></li>
+                        <li><a href="/index.html" id="Back-to-home" class="hover">HOME</a></li>
+                        <li><a href="/About.html" id="About-page" class="hover">ABOUT</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
-    </div>
+    </header>
     
-    <main class="main-comment">
+    <main class="main_content">
         <div class="innovation-logo">
             <img src="/Asset/lightbulb-icon-light-bulb-cog-symbol-flat-style-innovation-gears-mechanism-line-sign-simple-process-idea-156935997-removebg-preview.png" alt="innovation-logo" width="200px" height="200px">
         </div>
-        <div id="Contact-main">
-            <div>
+        <div class="Contact-main">
+            <div >
                 <p>This page is under innovation with the aid of learning journey at Altschool.</p>
                 <p>Not withstanding, i am open and willing to yield to your response towards the innovation of this page.</p>
                 <p>leave a comment below...</p>
@@ -49,33 +56,6 @@
         </div>
     </main>
     
-    <footer id="index-footer" class="gridft">
-        <div id="idf">
-            <!--Link to Github profile-->
-            <p class="grid-item"><a href="https://github.com/Emmanuel-Imeh">
-                <!--embed logo of Github-->
-                <embed src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOIAAACUCAMAAAC5tQU5AAAAZlBMVEUAAAD////39/fw8PDz8/PW1tZAQED6+vpYWFjt7e3m5uaRkZEWFhZ/f3++vr6kpKTc3Nxl
-                ZWVJSUmsrKxqamoNDQ0aGhoiIiJ2dnbMzMyZmZlRUVGHh4e1tbUxMTHFxcUqKio4ODhghIodAAAFhUlEQVR4nO2c2ZaiMBCGQZB9R0SRrd//JQftQSCVKAQcyjn13bVHc+onSW0JrSgEQRAEQRAEQRAEQRAEQRAEQRDLyM55fs72tuIzZMYlba6RY3c40TVIL8Z/pdQKjwcVcDiG1t6WbYFXnwKOvKfM4FR7e9u4ijYOHbG+X5wwbve2U5rcfzWB46n0871tlSKbKfCvyC90PlagzRV4Rwu+zfVk
-                xds9yOIUXzWR+XGpwDvXL9qRFxmBdy57Wz6TNpRVqKphu7f1czACeYWqGhh72/+e5LpGYbchk70VvCORcjRjjsg11otjBcRp91bxkg0Udhr3VvGKaAuFqhrtrUPMKl86JthbiYjCHJtpiuznM/1tsbcWPid7ZKQeFGkQzZRpRkFaBProE/u0txoexiQg3vNNzyrnlBtaUFpd5d9Of48wBciKid3V76dtnL6ZSTPti/5q8jnCusOaSNHL/vP8Njgh03aiDscevhvcnuVFOV6pqomufsybyRw4YwMvne3O1bWM+uw9ONeG5V67GKqP
-                t1w8DaoNttLqNF1+0aSt5sVcc7148q2MiarYPI49Ne8oMwaT3iJLctgieAuJyApkNjfdRCKqaWR24kYSUe1GYJwjEbkNUKZIPajPcAM5jC2xjy42O4p2295WSVLWtmd2s4QKjpJub6sksJkhUyoUMNVDs1LhCpN7/HAxoCk4YN80kjoz9EDTAEvdmMFiXzKFtsBASMr/G9iK0lsIjoSj43gCW1HargTpZnRZuxzp03u22FBVd0tLpSlYs1b4COC5UPibHITsFfU6cDgVhsLYAOc0K9KuGzsWijZVwu4fmRS8B6TiKFyqBaz6kR/MYJ9XhCETj9mrJ2sk/rCR0cbQiIvZ7HlTi
-                Xq8naXSwIp/jUR2oR5QSozWuJvvkGivcIIJ2z9AsVCBu9k0LmoY3I0FsvAtsxsHg8QbSJ3L9z8SUYKNjSH0w2sogfS5GayuUWQ3NTBLly6mPJ0dK6i3tFUW2LqRjhoGGCrc0lJpQEks33GBXSAcJbEPooYpu1KBwoO/qamyxPDKlOTygkvewRD5FaVtgGWalB8EqY2qNu3GxkrCOYxoZMaBj0rmaOQjlMDVSy1VzmVkfUUWsSmgPOgwF7tCl3NBZ03Rsi28630Hd1GOk7m891aQ9PsVXth4rNUFU2BwjijRhIw7Z3j6dufqz4yPns+/UO6cP2v3Ep5z4KRpMOjVm3JGp7ctG46/uoPnkLibht
-                4o3zvXSTk4Dj2q3gTvUxUJBKoqqjcbe4dzP3YLi3ac7xy0prByDzifLK9P6VV/8XYcHmfz4LlS75OWtPCgEPie5O1V+R1kvOK5G80iU8KAfZlB4yzX+M11XEw78U49bKhOo5EzcYSb7Lx+t0pHUQyPyIaqUT8p57CYBDqHe9h7erlUl6UO/4KfIbRFSua79TjUNVxzPU7e/eS6oqf+KUa3b1wlOyfWSICgYOCUKD0yN8w+z7A0zftfttVXIGYjaIYW4oiBzdf8ZYgUXW7ZXloliYsqLS7CTeULfSqam2EMwxGv/fj7opbKzW0VW/QO1EUk0cHmTZ8MkS595F7xj+I6N8UX5XCiWeRFUSz4fXZ6KObctB
-                BINLHU+lyeFy4P1YzzKb5ELHf7RAyXSqPU6v1MLphSrkTsCscNCtOOgqpLc4LrURDkeBIXNkR2oYTBThc0KDge9YB6H/bA7rg2exaRdL/fApqOmmAWgUQ8TcW3VJqMRA1L73sW/nG5xCOeluIsktBeJlELMRx5L8KzqiUSKwtRz3Q251tfFYuCht93Q663bxT4IPn9D1uiS+y/F+cPwdct0Qmte7Rt4UlcaNvHov2H5nyInxfFX42wQ0MQBEEQBEEQBEEQBEEQBEEQBEL+AJ2CPnc4p8H8AAAAAElFTkSuQmCC" height="30px" ></a></p>
-                   <p class="grid-item">&copy; 2024 All Right Reserved. </p>
-                   <p class="grid-item"><b>Email:</b>  davidimehemmanuel@gamil.com </p>
-            <p class="grid-item">
-            
-                <!--Linkedin Profile address-->
-                <a href="https://www.linkedin.com/in/emmanuel-imeh-9ab176337/" class="site" id="mysite" target="_blank">
-                <b>Linked</b><span style="background-color: royalblue;"><b>in</b></span></a>
-            </p>
-            <p class="grid-item">
-                <!--Medium Profile address-->
-                <a href="https://medium.com/@davidimehemmanuel" class="site" id="mysite" target="_blank"><b>Medium</b></a>
-            </p>
-            <p><a href="#top">Back to Top</a></p>
-        </div>
-    </footer>
     
 </body>
 </html>

@@ -1,7 +1,8 @@
 :root{
     --font: monospace, sans-serif;
-    width: 100%;
+    width: 1440px;
     height: max-content;
+    margin: 0 auto;
 }
 *{
     margin: 0%;
@@ -13,7 +14,7 @@
     inherits: false;
 }
 body{
-    width: 100%;
+    width: 1440px;
     height: max-content;
     margin:0;
     align-content: center;
@@ -24,18 +25,19 @@ body{
 }
 
 .grid{
-    width: 100%;
+    width: 1440px;
     height: max-content;
     grid-template-columns: repeat(1, 1fr);
     /* border: 2px solid red;  */
 }
 header{
-    width: 100%;
+    width: 1440px;
     height: 100px;
     background-color:color-mix(in srgb-linear, green 20%, yellow 20%);
     display: grid;
     grid-template-rows: repeat(1, 1fr);
     position: fixed;
+    z-index: 10;
     .header_container{
         width: 500px;
         height: 100px;
@@ -263,6 +265,12 @@ footer{
     cursor: pointer;
 
 }
+.main_content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+}
 
 .innovation-logo{
   width: 200px;
@@ -271,15 +279,24 @@ footer{
   background-color: grey;
   overflow-wrap: normal;
   margin: 0 auto;
-  position: relative;
+  /* position: relative; */
   top: 200px;
 }
 
-.contact-main{
+.Contact-main{
+    width: 540px;
+    height: 500px;
     color: white;
+    margin: 0 auto;
+    font-family: fantasy;
+    line-height: 50px;
+    /* position: relative; */
 }
-
-#wlcp {
+#comment{
+    width: 290px;
+    height: 200px;
+}
+/* #wlcp {
     margin-top: 350px;
     background-color: black;
     color: white;
@@ -298,7 +315,7 @@ footer{
         margin-top: 290px;
     }
     
-}
+} */
 
 /* End of wlc-p */
 
